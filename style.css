@@ -1,0 +1,85 @@
+*{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    width: 900px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px hsl(210, 46%, 95%);
+}
+
+.drawer{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom{
+    display: flex;
+    gap:20px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameAndAvatar{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.name{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.date{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+li{
+    list-style: none;
+    text-align: center;
+}
+.noClicked{
+    background-color: lightslategray;
+    height: 35px;
+    width: 160px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top:200px;
+    left: 800px;
+    opacity: 0;
+}
+
+.clicked{
+    opacity: 1;
+}
